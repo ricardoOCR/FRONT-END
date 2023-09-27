@@ -1,0 +1,20 @@
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
