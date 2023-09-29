@@ -1,0 +1,53 @@
+body {
+    background-color: #222222;
+    background-image: url(imagens/download.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-position-y: 130px;
+    
+}
+
+body, h1, h2, p, ul, li {
+    margin: 1px;
+    padding: 0;
+}
+
+header {
+    background-color: #c5bf18;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    align-content: center;
+    text-align: center;
+}
+
+/* Estilo para a navegação (menu) */
+nav ul {
+    list-style-type: none;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    margin-right: 25px; 
+    align-content: center;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
