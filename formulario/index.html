@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="fname">Nome:</label><br>
+        <input type="text"><br>
+
+        <label for="fname">Sobrenome:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <p>Você torce para qual time?</p>
+    
+    <form>
+ 
+        <input type="radio" id="gremio" name="time_fav" value="gremio">
+        <label for="gremio">gremio</label><br><br>
+
+        <input type="radio" id="internacional" name="time_fav" value="internacional">
+        <label for="internacional">Internacional</label><br><br>
+
+        <input type="radio" id="botafogo" name="time_fav" value="botafogoJavaScript">
+        <label for="botafogo">Botafogo</label>
+
+      </form>
+
+      <p>Quais veiculos desta lista você usa?</p>
+
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Bicicleta</label><br><br>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Carro</label><br><br>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Barco</label>
+      </form> 
+
+
+      <form>
+        <label for="cars">Escolha seu carro:</label><br>
+
+        <select id="cars" name="cars">
+
+            <option value="volvo">volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+
+      <h2>Area de texto</h2>
+        <p>O elemento textarea permite escrever um texto grande</p>
+
+      <form>
+
+        <textarea name="mensagem"></textarea><br><br>
+        <input type="submit" value="Enviar">
+
+      </form>
+
+      <form>
+        <fieldset>
+            <legend>Quais destas comidas você come?</legend>
+
+                <input type="checkbox" id="comida1" name="comida1" value="Bike">
+                <label for="comida1">Pastel</label><br><br>
+        
+                <input type="checkbox" id="comida2" name="comida2" value="Car">
+                <label for="comida2">Pizza</label><br><br>
+        
+                <input type="checkbox" id="comida3" name="comida3" value="Boat">
+                <label for="comida3">Xis</label> 
+
+        </fieldset>
+    </form>
+
+    <form>
+        <label for="aniversario">Aniversario:</label>
+        <input type="data" id="aniversario" name="aniversario">
+    </form><br>
+
+    <form>
+        <label for="email">Insira um email:</label>
+        <input type="email" id="email" name="email">
+    </form><br>
+
+    <form>
+       <label for="arquivo">Selecione um arquivo:</label>
+       <input type="file" id="arquivo" name="arquivo">
+    </form><br>
+
+    <form>
+        <label for="Idade">Idade:</label>
+        <input type="number" id="Idade" name="Idade">
+    </form><br>
+
+</body>
+</html>
