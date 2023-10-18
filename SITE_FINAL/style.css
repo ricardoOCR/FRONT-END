@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: #111;
+    background: url(../imagens/dundo-do-site.png);
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+}
+
+#loading-screen {
+    background: #111;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1050;
+}
+
+
+#bar {
+    width: 0;
+    height: 2px;
+    background: #E48632;
+    position: relative;
+    top: 45%
+}
+
+.loading {
+    -moz-transform: translate3d(0px, -100%, 0px);
+    -webkit-transform: translate3d(0px, -100%, 0px);
+    -o-transform: translate(0px, -100%);
+    -ms-transform: translate(0px, -100%);
+    transform: translate3d(0px, -100%, 0px);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.loader-logo {
+    position: relative;
+    color: #FFF;
+    top: 43%;
+    width: 10%;
+    height: 90%;
+}
+
+div {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-cabecalho {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-bar {
+    margin: 7px;
+}
